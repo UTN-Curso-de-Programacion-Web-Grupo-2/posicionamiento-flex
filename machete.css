@@ -1,0 +1,21 @@
+/* POSITION */
+#elemento {
+    display: block | inline-block | inline;
+    position: static | relative | absolute | fixed;
+    float: left | right;
+    /* top , right , bottom , left , z-index */
+}
+
+/* FLEX MODEL */
+#contenedor {
+    display: flex | inline-flex; /* Hace que el contenedor se comporte como un flexbox */
+    flex-direction: row | row-reverse | column | column-reverse; /* Dirección de los items dentro del contenedor*/
+    flex-wrap: wrap | wrap-reverse; /* Wrapeaba el contenido si habia overflow */
+    justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly; /* Posicionamiento horizontal*/
+    align-items: flex-start | flex-end | center | stretch | baseline; /* Posicionamiento vertical */   
+}
+
+#items {
+    flex-grow: 2; /* Proporcion de crecimiento que tiene el item */
+    align-self: flex-start | flex-end | center | stretch | baseline; /* Posicionamiento vertical del item */   
+}
