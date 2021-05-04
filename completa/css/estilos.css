@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: url('../img/owl.png') no-repeat center lightsalmon;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+footer nav ul li {
+    padding: 10px 15px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-family: 'Itim', cursive;
+}
+
+main h1 {
+    position: fixed;
+    bottom: 15%;
+    left: 0;
+    right: 0;
+    font-size: 3em;
+    font-family: 'Itim', cursive;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main ul {
+    list-style: none;
+}
+
+main ul li {
+    padding: 10px;
+}
