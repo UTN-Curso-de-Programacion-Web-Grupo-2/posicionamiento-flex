@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna-50 {
+    width: 50%;
+}
+
+#izquierda {
+    background: lightcoral;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+}
+
+#derecha {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+}
+
+div {
+    width: 80%;
+}
+
+div#imagen {
+    position: absolute;
+    top: 35%;
+    width: 30%;
+    left: 35%;
+    height: 30%;
+}
+
+#imagen img {
+    height: 250px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h2, p {
+    padding: 0 10px;
+}
